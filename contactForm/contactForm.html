@@ -43,7 +43,33 @@
     </div>
   </nav>
 
-<h2>Contact Form page</h2>
+<h2>Contact Form page</h2> 
+
+    
+<div class="container">
+    <label for="fname">First Name</label>
+    <input type="text" id="fstname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="county">County</label>
+      <select id="county" name="county">
+        <option value="cork">Cork</option>
+        <option value="kerry">Kerry</option>
+        <option value="waterford">Waterford</option>
+        <option value="dublin">Dublin</option>
+        <option value="carlow">Carlow</option>
+      </select>
+   
+  <label for="phone">Enter a phone number:</label><br><br>
+  <input type="tel" id="phone" name="phone" placeholder="085-0000-000" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" required><br><br>
+  <small>Format: 085-1111-111</small><br><br>
+
+    <input type="submit" value="Submit Form">
+  </form>
+</div>
+
 
 </body>
 </html>
