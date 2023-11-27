@@ -56,10 +56,10 @@
     <div class="row">
       <div class="col-md-4">
         <div class="box">
-          <img src="../images/gallery 1.jpg" class="card-img" alt="Roses" />
+          <img src="../images/gallery 1.jpg" class="card-img" alt="Roses" onclick="showText('rosesText')" />
           <div class="card-body">
             <h5 class="card-title">Roses</h5>
-            <p class="card-text">
+            <p class="card-text" id="rosesText" style="display: none;">
               Beautiful pink roses, symbolizing gratitude, grace, admiration, and
               joy.
             </p>
@@ -70,73 +70,90 @@
         </div>
       </div>
 
+      <div class="row">
       <div class="col-md-4">
         <div class="box">
-          <img src="../images/gallery 2.jpg" class="card-img" alt="Sunflower" />
+          <img src="../images/gallery 2.jpg" class="card-img" alt="Roses" onclick="showText('rosesText')" />
           <div class="card-body">
-            <h5 class="card-title">Sunflower</h5>
-            <p class="card-text">
-              A wonderful sunflower to remind you of summers past.
+            <h5 class="card-title">Roses</h5>
+            <p class="card-text" id="rosesText" style="display: none;">
+              Beautiful pink roses, symbolizing gratitude, grace, admiration, and
+              joy.
             </p>
             <p class="card-text">
-              <small class="text-body-secondary">Available in-store</small>
+              <small class="text-body-secondary">Available in-store </small>
             </p>
           </div>
         </div>
       </div>
 
+          <div class="row">
       <div class="col-md-4">
         <div class="box">
-          <img src="../images/gallery 3.jpg" class="card-img" alt="Violet" />
+          <img src="../images/gallery 3.jpg" class="card-img" alt="Roses" onclick="showText('rosesText')" />
           <div class="card-body">
-            <h5 class="card-title">Violet</h5>
-            <p class="card-text">Perfect violets for those in need.</p>
+            <h5 class="card-title">Roses</h5>
+            <p class="card-text" id="rosesText" style="display: none;">
+              Beautiful pink roses, symbolizing gratitude, grace, admiration, and
+              joy.
+            </p>
             <p class="card-text">
-              <small class="text-body-secondary">Available in-store</small>
+              <small class="text-body-secondary">Available in-store </small>
             </p>
           </div>
         </div>
       </div>
 
+              <div class="row">
       <div class="col-md-4">
         <div class="box">
-          <img src="../images/gallery 4.jpg" class="card-img" alt="Violet" />
+          <img src="../images/gallery 4.jpg" class="card-img" alt="Roses" onclick="showText('rosesText')" />
           <div class="card-body">
-            <h5 class="card-title">Violet</h5>
-            <p class="card-text">Perfect violets for those in need.</p>
+            <h5 class="card-title">Roses</h5>
+            <p class="card-text" id="rosesText" style="display: none;">
+              Beautiful pink roses, symbolizing gratitude, grace, admiration, and
+              joy.
+            </p>
             <p class="card-text">
-              <small class="text-body-secondary">Available in-store</small>
+              <small class="text-body-secondary">Available in-store </small>
             </p>
           </div>
         </div>
       </div>
 
+                  <div class="row">
       <div class="col-md-4">
         <div class="box">
-          <img src="../images/gallery 5.jpg" class="card-img" alt="Violet" />
+          <img src="../images/gallery 5.jpg" class="card-img" alt="Roses" onclick="showText('rosesText')" />
           <div class="card-body">
-            <h5 class="card-title">Violet</h5>
-            <p class="card-text">Perfect violets for those in need.</p>
+            <h5 class="card-title">Roses</h5>
+            <p class="card-text" id="rosesText" style="display: none;">
+              Beautiful pink roses, symbolizing gratitude, grace, admiration, and
+              joy.
+            </p>
             <p class="card-text">
-              <small class="text-body-secondary">Available in-store</small>
+              <small class="text-body-secondary">Available in-store </small>
             </p>
           </div>
         </div>
       </div>
 
+                      <div class="row">
       <div class="col-md-4">
         <div class="box">
-          <img src="../images/gallery 6.jpg" class="card-img" alt="Violet" />
+          <img src="../images/gallery 6.jpg" class="card-img" alt="Roses" onclick="showText('rosesText')" />
           <div class="card-body">
-            <h5 class="card-title">Violet</h5>
-            <p class="card-text">Perfect violets for those in need.</p>
+            <h5 class="card-title">Roses</h5>
+            <p class="card-text" id="rosesText" style="display: none;">
+              Beautiful pink roses, symbolizing gratitude, grace, admiration, and
+              joy.
+            </p>
             <p class="card-text">
-              <small class="text-body-secondary">Available in-store</small>
+              <small class="text-body-secondary">Available in-store </small>
             </p>
           </div>
         </div>
       </div>
-    </div>
     
 <footer>
     <div class="footer">
@@ -160,7 +177,7 @@
         </div>
     </div>
 </footer>
-
+<script>
     function showText(textId) {
   var textElement = document.getElementById(textId);
   if (textElement.style.display === "none") {
@@ -169,6 +186,6 @@
     textElement.style.display = "none";
   }
 }
-    
+    </script>
 </body>
     </html>
