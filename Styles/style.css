@@ -132,6 +132,41 @@ h1, h2, h6 {
   color: #ffffff;
 }
 
+.contactcontainer {
+            width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+.form-group {
+            margin-bottom: 20px;
+        }
+
+.form-label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+.form-input {
+            width: 100%;
+            padding: 5px;
+        }
+
+.form-input:invalid {
+            border: 1px solid red;
+        }
+
+.form-submit {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
 
 
 
