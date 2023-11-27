@@ -183,6 +183,23 @@ h1, h2, h6 {
             margin-bottom: 20px;
             color: white;
         }
+.aboutoverlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .aboutoverlay-text {
+            color: #fff;
+            font-size: 20px;
+        }
         
         .aboutparagraph-container p {
             color: white;
