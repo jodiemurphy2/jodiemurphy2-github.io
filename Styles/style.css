@@ -1,12 +1,22 @@
+
+
+
 h1{
     color: aqua;
     font-family: Arial, Helvetica, sans-serif;
 }
 h2{
     color: darkmagenta;
-}
+}    
+
+/*https://www.magicpattern.design/tools/css-backgrounds */
 body{
     color: lightslategray;
+    background-color: #f8f8ff;
+    background-image:  radial-gradient(#ff24e5 2px, transparent 2px), radial-gradient(#ff24e5 2px, #f8f8ff 2px);
+    background-size: 80px 80px;
+    background-position: 0 0,40px 40px;
+    
 }
 
 input[type=submit] {
@@ -27,7 +37,8 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
-/* open-sans-regular - latin - modern browsers  */@font-face {
+/* open-sans-regular - latin - modern browsers  */
+@font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
@@ -41,6 +52,7 @@ h5 {
 h1, h2, h6 {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+
 }
 
 .box {
@@ -193,5 +205,10 @@ h1, h2, h6 {
         }
 
 
+.mapCard{
+    height: auto;
+}
 
-
+.navbar-custom{
+    background-color: hotpink;
+}
