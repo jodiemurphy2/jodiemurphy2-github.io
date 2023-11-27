@@ -66,15 +66,15 @@
             </div>
             <div class="form-group">
                 <label class="form-label" for="phone">Phone Number</label>
-                <input class="form-input" type="tel" id="phone" pattern="[0-9]{3,7}" required>
-                <small>Format: 081 2345678 (10 digits)</small>
+                <input class="form-input" type="tel" id="phone" pattern="[0-9]{10}" required>
+                <small>Format: 0812345678 (10 digits total including area/network code)</small>
             </div>
             <div class="form-group">
                 <label class="form-label">Where did you hear about us?</label>
-                <input type="checkbox" id="referral1" value="Newspaper"> Referral 1<br>
-                <input type="checkbox" id="referral2" value="Radio"> Referral 2<br>
-                <input type="checkbox" id="referral3" value="Billboard"> Referral 3<br>
-                <input type="checkbox" id="referral4" value="From a friend"> Referral 4<br>
+                <input type="checkbox" id="referral1" value="Newspaper"> Newspaper<br>
+                <input type="checkbox" id="referral2" value="Radio"> Radio<br>
+                <input type="checkbox" id="referral3" value="Billboard"> Billboard<br>
+                <input type="checkbox" id="referral4" value="From a friend"> From a friend<br>
             </div>
             <input class="form-submit" type="submit" value="Submit">
         </form>
