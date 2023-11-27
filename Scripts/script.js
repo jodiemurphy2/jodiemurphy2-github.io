@@ -105,3 +105,24 @@ function showMessage() {
             document.getElementById("message").style.display = "block";
         }
 
+//javascript for aboutus page (just testing for right now)
+const overlays = document.querySelectorAll(".overlay");
+overlays.forEach((overlay) => {
+    overlay.addEventListener("mouseover", () => {
+        const randomColor = getRandomColor();
+        overlay.style.backgroundColor = randomColor;
+    });
+
+    overlay.addEventListener("mouseout", () => {
+        overlay.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+    });
+});
+
+function getRandomColor() {
+    const letters = "0123456789ABCDEF";
+    let color = "#";
+    for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
