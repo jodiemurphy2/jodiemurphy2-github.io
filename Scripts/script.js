@@ -105,27 +105,3 @@ function showMessage() {
             document.getElementById("message").style.display = "block";
         }
 
-
-//index submit button
-<script>
-function handleSubmit(event) {
-  event.preventDefault();
-
-  //get name & email values from user
-  var name = document.getElementById('name').value;
-  var email = document.getElementById('email').value;
-
-  //the form has to be hidden
-  document.getElementById('userForm').style.display = 'none';
-
-  //show message of thanks
-  var message = document.getElementById('thankYouMessage');
-  message.innerHTML = "Thank you for you details "+ name + ". We will be in touch via "+ email + " shortly.";
-  message.style.display = 'block';
-}
-</script>
-
-
-
-
-
