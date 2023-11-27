@@ -45,31 +45,7 @@
 
 <h2>Contact Form page</h2> 
 
-    
-<div class="contactcontainer">
-    <label for="fname">First Name</label>
-    <input type="text" id="fstname" name="firstname" placeholder="Your name..">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="county">County</label>
-      <select id="county" name="county">
-        <option value="cork">Cork</option>
-        <option value="kerry">Kerry</option>
-        <option value="waterford">Waterford</option>
-        <option value="dublin">Dublin</option>
-        <option value="carlow">Carlow</option>
-      </select>
-
-    <label for="phone">Enter a phone number:</label><br><br>
-  <input type="tel" id="phone" name="phone" placeholder="080-0000-000" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" required><br><br>
-  <small>Format: 080-0000-000</small><br><br>
-
-
-    <input type="submit" value="Submit Form">
-  </form>
-</div>
     
  <div class="contactcontainer">
         <h2>Contact Form</h2>
@@ -79,31 +55,31 @@
                 <input class="form-input" type="text" id="name" required>
             </div>
             <div class="form-group">
-                <label class="form-label" for="location">Location</label>
+                <label class="form-label" for="location">Please tell us your location</label>
                 <select class="form-input" id="location" required>
                     <option value="">Select location</option>
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
-                    <option value="Option 4">Option 4</option>
+                    <option value="Option 1">Cork</option>
+                    <option value="Option 2">Kerry</option>
+                    <option value="Option 3">Waterford</option>
+                    <option value="Option 4">Tipperary</option>
                 </select>
             </div>
             <div class="form-group">
                 <label class="form-label" for="phone">Phone Number</label>
-                <input class="form-input" type="tel" id="phone" pattern="[0-9]{10}" required>
-                <small>Format: 1234567890 (10 digits)</small>
+                <input class="form-input" type="tel" id="phone" pattern="[0-9]{3,7}" required>
+                <small>Format: 081 2345678 (10 digits)</small>
             </div>
             <div class="form-group">
                 <label class="form-label">Where did you hear about us?</label>
-                <input type="checkbox" id="referral1" value="Referral 1"> Referral 1<br>
-                <input type="checkbox" id="referral2" value="Referral 2"> Referral 2<br>
-                <input type="checkbox" id="referral3" value="Referral 3"> Referral 3<br>
-                <input type="checkbox" id="referral4" value="Referral 4"> Referral 4<br>
+                <input type="checkbox" id="referral1" value="Newspaper"> Referral 1<br>
+                <input type="checkbox" id="referral2" value="Radio"> Referral 2<br>
+                <input type="checkbox" id="referral3" value="Billboard"> Referral 3<br>
+                <input type="checkbox" id="referral4" value="From a friend"> Referral 4<br>
             </div>
             <input class="form-submit" type="submit" value="Submit">
         </form>
         <div id="message" style="display: none;">
-            <p>Thank you for submitting the form!</p>
+            <p>Thank you for submitting the form, we will be in contact soon!</p>
             <p><a href="index.html">Go back to the main page</a></p>
         </div>
     </div>
