@@ -208,6 +208,49 @@ h1, h2, h6 {
             margin-right: 5px;
         }
 
+/*about styles completed by Sinéad Halpin */
+aboutbody {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .aboutcontainer {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+        }
+        
+        .aboutparagraph-container {
+            padding: 20px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-bottom: 20px;
+            color: white;
+        }
+        
+        .aboutparagraph-container p {
+            color: white;
+        }
+        
+        .aboutimage1 {
+            background-image: url("../images/carousel-image-1.webp");
+        }
+        
+        .aboutimage2 {
+            background-image: url("../images/carousel-image-2.webp");
+        }
+        
+        .aboutimage3 {
+            background-image: url("../images/carousel-image-3.webp");
+        }
+        
+        .aboutimage4 {
+            background-image: url("../images/carousel-image-4.webp");
+        }
+
 
 
 
