@@ -89,3 +89,18 @@ function checkMatch(){
     secondImage = null;
     gamePaused = false;
 }
+
+//checks that the data type is correct in the contact form
+function validateForm() {
+            var form = document.getElementById("contact-form");
+            if (form.checkValidity()) {
+                showMessage();
+            } else {
+                form.reportValidity();
+            }
+        }
+//shows a message when the contact form is completed
+function showMessage() {
+            document.getElementById("contact-form").style.display = "none";
+            document.getElementById("message").style.display = "block";
+        }
