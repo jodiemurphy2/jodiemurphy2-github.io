@@ -44,25 +44,32 @@ h1, h2, h6 {
 }
 
 .box {
-  width: 22%;
-  border: 1px solid black;
-  border-radius: 20px;
-  padding: 10px;
-  margin:10px 10px 10px 10px;
-  text-align: center;
-  font-size: 23px;
-}
+      width: 100%;
+      border: 1px solid black;
+      border-radius: 20px;
+      padding: 10px;
+      margin: 10px 0;
+      text-align: center;
+      font-size: 23px;
+    }
+    
+    .card-img {
+      height: 200px;
+      width: 100%;
+      object-fit: cover; 
+    }
+    
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .col-md-4 {
+      flex: 0 0 33.33%; 
+      max-width: 33.33%;
+    }
 
-.card {
-  height: 400px;
-}
 
-.card-img {
-  height: 100%;
-  width: 50%;
-  margin-left: 50px;
-  aspect-ratio: cover;
-}
 
 
 /*Form styles completed by Sinéad Halpin */
