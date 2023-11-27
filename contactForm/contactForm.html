@@ -43,48 +43,47 @@
     </div>
   </nav>
 
-<h2>Contact Form page</h2> 
+  <h2>Contact Form page</h2> 
 
-<!-- Contact Form page completed by Sinéad Halpin -->
+  <!-- Contact Form page completed by Sinéad Halpin -->
     
- <body>
-    <div class="contactcontainer">
-        <h2>Would you like us to contact you about an enquiry?</h2>
-        <form id="contact-form" onsubmit="event.preventDefault(); validateForm();">
-            <div class="form-group">
-                <label class="form-label" for="name">Name</label>
-                <input class="form-input" type="text" id="name" required>
-            </div>
-            <div class="form-group">
-                <label class="form-label" for="location">Location</label>
-                <select class="form-input" id="location" required>
-                    <option value="">Select location</option>
-                    <option value="Option 1">Cork</option>
-                    <option value="Option 2">Kerry</option>
-                    <option value="Option 3">Waterford</option>
-                    <option value="Option 4">Tipperary</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label class="form-label" for="phone">Phone Number</label>
-                <input class="form-input" type="tel" id="phone" pattern="[0-9]{10}" required>
-                <small>Format: 0850000000 </br>
+<div class="contactcontainer">
+      <h2>Would you like us to contact you about an enquiry?</h2>
+      <form id="contact-form" onsubmit="event.preventDefault(); validateForm();">
+          <div class="form-group">
+            <label class="form-label" for="name">Name</label>
+            <input class="form-input" type="text" id="name" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="location">Location</label>
+            <select class="form-input" id="location" required>
+                <option value="">Select location</option>
+                <option value="Option 1">Cork</option>
+                <option value="Option 2">Kerry</option>
+                <option value="Option 3">Waterford</option>
+                <option value="Option 4">Tipperary</option>
+            </select>
+          </div>
+          <div class="form-group">
+              <label class="form-label" for="phone">Phone Number</label>
+              <input class="form-input" type="tel" id="phone" pattern="[0-9]{10}" required>
+              <small>Format: 0850000000 </br>
                         (10 digits including network/area code)</small>
-            </div>
-            <div class="form-group">
-                <label class="form-label">Where did you hear about us?</label>
-                <input type="checkbox" id="referral1" value="Newspaper"> Newspaper<br>
-                <input type="checkbox" id="referral2" value="Radio"> Radio<br>
-                <input type="checkbox" id="referral3" value="Billboard"> Billboard<br>
-                <input type="checkbox" id="referral4" value="Friend"> From a friend<br>
-            </div>
-            <input class="form-submit" type="submit" value="Submit">
-        </form>
-        <div id="message" style="display: none;">
-            <p>Thank you for submitting the form!</p>
-            <p><a href="../index.html">Click here to back to the main page</a></p>
-        </div>
-    </div>
+          </div>
+          <div class="form-group">
+              <label class="form-label">Where did you hear about us?</label>
+              <input type="checkbox" id="referral1" value="Newspaper"> Newspaper<br>
+              <input type="checkbox" id="referral2" value="Radio"> Radio<br>
+              <input type="checkbox" id="referral3" value="Billboard"> Billboard<br>
+              <input type="checkbox" id="referral4" value="Friend"> From a friend<br>
+          </div>
+          <input class="form-submit" type="submit" value="Submit">
+      </form>
+      <div id="message" style="display: none;">
+        <p>Thank you for submitting the form!</p>
+        <p><a href="../index.html">Click here to back to the main page</a></p>
+      </div>
+</div>
 </body>
 
 </html>
