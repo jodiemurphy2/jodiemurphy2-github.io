@@ -45,7 +45,8 @@
 </nav>
 
 <!--Welcome to the Homepage-->
-<div>
+</br>
+<div class="container rounded border bg-white">
     <h1><br>Welcome to the Flower Shop Homepage!</h1>
     <h2><br>We sell a variety of beautiful flowers that are tailored to your needs</h2>
 </div>
@@ -78,13 +79,23 @@
     
 <!--Form at bottom of page-->
 <div class="box"><p id="message">Have a query? Fill out our form below and we will get back in touch.</p></div>
-<div class="form">
-  <form id="userForm" onsubmit="handleSubmit(event)">
-    Name: <input type="text" id="name" required /> <br />
-    Email : <input type="text" id="email" required /> <br />
-    <button type="submit" value="Submit">Submit</button>
-  </form>
+<div class = "container">
+    <div class="row justify-content-center">
+        <div id="userForm" class="col-3 bg-white rounded border">
+        </br>
+            <div class="form">
+              <form  onsubmit="handleSubmit(event)">
+                Name: <input type="text" id="name" required /> <br />
+                Email : <input type="text" id="email" required /> <br />
+            </br><button type="submit" value="Submit">Submit</button>
+              </form>
+            </div>
+        </br>
+        </div>
+    </div>
 </div>
+</br>
+
 <div id="thankYouMessage"></div>
 
     <!--footer-->
