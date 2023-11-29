@@ -148,7 +148,7 @@ function handleSubmit(event) {
 
 //JS for ourProducts page
 
-<script>
+
     function showText(textId) {
   var textElement = document.getElementById(textId);
   if (textElement.style.display === "none") {
@@ -157,7 +157,7 @@ function handleSubmit(event) {
     textElement.style.display = "none";
   }
 }
-    </script>
+
 
 
 
