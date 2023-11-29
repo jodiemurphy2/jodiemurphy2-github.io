@@ -65,14 +65,14 @@ h1, h2, h6 {
       width: 100%;
       object-fit: contain; 
     }
+
+    .card-img:hover {
+        cursor: pointer;
+    }
     
     .row {
       display: flex;
       flex-wrap: wrap;
-    }
-
-    .row:hover {
-        cursor: pointer;
     }
     
     .col-md-4 {
