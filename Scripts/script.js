@@ -126,3 +126,42 @@ function getRandomColor() {
     }
     return color;
 }
+
+
+//index submit button
+
+function handleSubmit(event) {
+  event.preventDefault();
+
+  //get name & email values from user
+  var name = document.getElementById('name').value;
+  var email = document.getElementById('email').value;
+
+  //the form has to be hidden
+  document.getElementById('userForm').style.display = 'none';
+
+  //show message of thanks
+  var message = document.getElementById('thankYouMessage');
+  message.innerHTML = "Thank you for you details "+ name + ". We will be in touch via "+ email + " shortly.";
+  message.style.display = 'block';
+}
+
+//JS for ourProducts page
+
+<script>
+    function showText(textId) {
+  var textElement = document.getElementById(textId);
+  if (textElement.style.display === "none") {
+    textElement.style.display = "block";
+  } else {
+    textElement.style.display = "none";
+  }
+}
+    </script>
+
+
+
+
+
+
+
