@@ -225,9 +225,21 @@ h1, h2, h6 {
     background-color: lightpink;
 }
 
-.flowerImg:hover {
-    transform: rotate(360deg);
+.flowerImg:hover{
+    animation: rotateFlower 1s forwards infinite; 
 }
+
+@keyframes rotateFlower { 
+    0%,100%{ 
+        transform: rotateZ(0); 
+    } 
+    25%{ 
+          transform: rotateZ(15deg); 
+     } 
+    75%{ 
+           transform: rotateZ(-15deg); 
+    } 
+} 
 
 .tagLine{
     font-family: "Sofia", sans-serif;
