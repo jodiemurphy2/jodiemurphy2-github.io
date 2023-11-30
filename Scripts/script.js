@@ -169,15 +169,16 @@ function handleSubmit(event) {
   message.style.display = 'block';
 }
 
-//ourProducts
-  function showText(textId) {
-    var textElement = document.getElementById(textId);
-    if (textElement.style.display === "none") {
-      textElement.style.display = "block";
-    } else {
-      textElement.style.display = "none";
-    }
+ //JS for ourProducts page
+    
+    function showText(textId) {
+  var textElement = document.getElementById(textId);
+  if (textElement.style.display === "none") {
+    textElement.style.display = "block";
+  } else {
+    textElement.style.display = "none";
   }
+}
 
 
 
