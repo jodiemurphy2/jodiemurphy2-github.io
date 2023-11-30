@@ -10,7 +10,7 @@ function startGame(){
     //generates an array with flower colours shuffled
     shuffledFlowers = shuffleArray(flowers.slice());
 
-    //document.getElementById("gameStart").hidden=true;
+    document.getElementById("gameStart").hidden=true;
     document.getElementById("gameDiv").hidden=false;
 
     for(i=0;i<16;i++){
@@ -82,6 +82,7 @@ function checkMatch(){
     else{
         alert("You lose! Press the button to start again");
         document.getElementById("gameDiv").hidden=true;
+        document.getElementById("gameStart").hidden=false;
     }
 
     //reset values
