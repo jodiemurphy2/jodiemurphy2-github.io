@@ -150,7 +150,7 @@ function handleSubmit(event) {
 
 
     function showText(textId) {
-  var textElement = document.getElementById(textId);
+  var textElement = document.getElementById('textId');
   if (textElement.style.display === "none") {
     textElement.style.display = "block";
   } else {
@@ -158,8 +158,28 @@ function handleSubmit(event) {
   }
 }
 
+//check if open today on Discovery Zone page
+function checkOpen(){
 
+    //hide button
+    document.getElementById("dateButton").hidden=true;
+    //get todays date
+    const today = new Date();
 
+    //convert date to week day (Sun-Sat is 0-6)
+    const day = today.getDay();
+
+    //Display correct message depending on day
+    if (day <= 1){
+        document.getElementById("dateText").innerHTML="Sorry we are closed today.";
+    }
+    else if (day>1 && day<=5){
+        document.getElementById("dateText").innerHTML="We are open today from 9:00 to 17:00.";
+    }
+    else{
+        document.getElementById("dateText").innerHTML="We are open today from 9:00 to 13:00.";
+    }
+}
 
 
 

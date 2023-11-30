@@ -244,3 +244,9 @@ h1, h2, h6 {
 .tagLine{
     font-family: "Sofia", sans-serif;
 }
+
+
+#dateText{
+    color: #0d6efd;
+    font-weight: bold;
+}
