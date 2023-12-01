@@ -144,7 +144,7 @@ function checkOpen(){
         document.getElementById("dateText").innerHTML="Sorry we are closed today.";
     }
     else if (day>1 && day<=5){
-        document.getElementById("dateText").innerHTML="We are open today from 9:00 to 17:00.";
+        document.getElementById("dateText").innerHTML="We are open today from 9:00 to 18:00.";
     }
     else{
         document.getElementById("dateText").innerHTML="We are open today from 9:00 to 13:00.";
