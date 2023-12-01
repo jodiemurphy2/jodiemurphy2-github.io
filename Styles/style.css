@@ -10,7 +10,7 @@ h2{
 
 /*https://www.magicpattern.design/tools/css-backgrounds */
 body{
-    color: lightslategray;
+    color: black;
     background-color: #f8f8ff;
     background-image:  radial-gradient(#ff24e5 2px, transparent 2px), radial-gradient(#ff24e5 2px, #f8f8ff 2px);
     background-size: 80px 80px;
